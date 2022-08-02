@@ -24,6 +24,6 @@ virt-install --name ubuntu \
 --network bridge=br0 \
 --graphics none \
 --console pty,target_type=serial \
---location /home/microfixer/iso/ubuntu-20.04.4-live-server-amd64.iso,kernel=casp                                                                                                                                                             er/vmlinuz,initrd=casper/initrd \
+--location /home/microfixer/iso/ubuntu-20.04.4-live-server-amd64.iso,kernel=casper/vmlinuz,initrd=casper/initrd \
 --extra-args 'console=ttyS0,115200n8 serial'
 ```
